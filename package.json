@@ -1,0 +1,24 @@
+{
+  "name": "hybrid-4-babel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel js -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deje0014/hybrid-4-babel.git"
+  },
+  "author": "Alessandro de Jesus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deje0014/hybrid-4-babel/issues"
+  },
+  "homepage": "https://github.com/deje0014/hybrid-4-babel#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}

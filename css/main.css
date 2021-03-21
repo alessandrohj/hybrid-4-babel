@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+
+html {
+    font-family: 'Roboto', Helvetica, sans-serif;
+}
+p, h1 {
+    padding: 1rem;
+}
+
+h1 {
+    text-align: center;
+}
+
+#output {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#output > p {
+  font-size: 1.5rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+.responsive-img {
+    border: 1px solid white;
+    max-height: 35em;
+}
